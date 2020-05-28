@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class BinaryOperations{
+	public static void main(String[]args){
+		Scanner input = new Scanner(System.in);
+		System.out.print("실수 두 개를 입력하시오");
+		double x1=input.nextDouble();
+		double x2=input.nextDouble();
+		
+		System.out.println(x1 +" + "+ x2 +" = " + (x1 + x2));
+		System.out.println(x1 +" - "+ x2 +" = " + (x1 - x2));
+		System.out.println(x1 +" * "+ x2 +" = " + (x1 * x2));
+		System.out.println(x1 +" / "+ x2 +" = " + (x1 / x2));
+		
+		input.close();
+	}
+}
+
